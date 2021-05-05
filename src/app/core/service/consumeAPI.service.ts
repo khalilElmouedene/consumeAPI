@@ -9,9 +9,13 @@ import {  map } from 'rxjs/operators';
 })
 
 export class ConsumeAPIService {
+
+  // Bash ikhdem lik project dir npm i
   protected baseUrl: string;
   // Hada service henna kandiro les méthodes dyawlna likan3yto lihom f component
   // HttpClient makandirohsh f component kandiroh f service
+
+
 
   // Fash katkon 3ndk lien dyal api kandiroh f environment bash kan9ado lkhdma dyalna kabdiroh f environment prod
   // et environment 3adi lwl howa likib9a m3ak f prod dyal apps tani f dev dyal apps dyalk
